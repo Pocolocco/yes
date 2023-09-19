@@ -4,20 +4,20 @@
 <head>
 <title>Funny Place for funny peoplz</title>
 <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
-<style>.button {
-  border: none;
-  color: white;
-  padding: 25px 50px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 40px 20px;
-  transition-duration: 0.4s;
-  cursor: pointer;
-  border-radius: 20%;
-  background-color: #4CAF50;
-  color: blue;
+<style> 
+  button {
+	  border: none;
+	  color: white;
+	  padding: 25px 50px;
+	  text-align: center;
+	  text-decoration: none;
+	  display: inline-block;
+	  font-size: 16px;
+	  margin: 40px 20px;
+	  transition-duration: 0.4s;
+	  cursor: pointer;
+ 	  background-color: #4CAF50;
+	  color: blue;
 }
 
 	  
@@ -41,9 +41,15 @@
 }
 
 	</style>
+	<script>
+		function buttonClicked(){
+			alert(You clicked the button);
+		}
+	</script>
+		
   </head>
   <body>
-    Hello World
+	  <button onclick="welcome()" class="button"> Click Me!!! </button>
 
     <!-- begin wwww.htmlcommentbox.com -->
      <div id="HCB_comment_box"><a href="http://www.htmlcommentbox.com">Comment Form</a> is loading comments...</div>
