@@ -20,6 +20,11 @@
 	  color: blue;
 }
 
+button:hover {
+	  animation-name: smoothzoom;
+  	animation-duration: 4s;
+}
+
 	  
   
 	body {
@@ -37,6 +42,16 @@
 	}
 	100% {
 		background-position: 0% 50%;
+	}
+}
+
+@keyframes smoothzoom {
+	0% {
+		zoom: 100%
+	}
+
+	100% {
+		zoom: 102%
 	}
 }
 
