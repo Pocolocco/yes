@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+	<!--The body and the @keyfram gradient stuff is for the colors ALSO DO NOT PUT THE COMMENTS IN THE CSS SECTION-->
+<head>
+<title>Funny Place for funny peoplz</title>
+<link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+<style> 
+  button {
+	  border: none;
+	  color: white;
+	  padding: 25px 50px;
+	  text-align: center;
+	  text-decoration: none;
+	  display: inline-block;
+	  font-size: 16px;
+	  margin: 40px 20px;
+	  transition-duration: 0.4s;
+	  cursor: pointer;
+ 	  background-color: #4CAF50;
+	  color: blue;
+}
+
+	  
+  
+	body {
+	background: linear-gradient(-45deg, #fc5a8d, #4f86f7);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 100vh;}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+	</style>
+		
+  </head>
+  <body>
+	  <button onclick="myFunction()">Click Me!!!</button>
+    <button onclick="index()">Home</button>
+<script>
+function myFunction() {
+  alert("You clicked the button!");
+}
+
+function index() {
+  location.href="index.html";
+</script>
+
+  </body>
+</html>
