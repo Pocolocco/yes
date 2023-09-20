@@ -3,7 +3,6 @@
 	<!--The body and the @keyfram gradient stuff is for the colors ALSO DO NOT PUT THE COMMENTS IN THE CSS SECTION-->
 <head>
 <title>Funny Place for funny peoplz</title>
-<link rel="icon" type="image/x-icon" href="/images/favicon.ico">
 <style> 
   button {
 	  border: none;
@@ -15,13 +14,16 @@
 	  font-size: 16px;
 	  margin: 40px 20px;
 	  transition-duration: 0.4s;
+	  transition: transform .2s;
 	  cursor: pointer;
  	  background-color: #4CAF50;
 	  color: blue;
 }
 
 	  
-  
+  button:hover {
+	  transform: scale(1.25);
+  }
 	body {
 	background: linear-gradient(-45deg, #fc5a8d, #4f86f7);
 	background-size: 400% 400%;
